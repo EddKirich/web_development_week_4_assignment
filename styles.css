@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0a0303;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+section {
+    margin: 20px;
+}
+
+/* Introduction Section Styles */
+.introduction {
+    background-color: #dfafaf;
+    padding: 20px;
+}
+
+/* Skills Section Styles */
+.skills {
+    background-color: #e9b2b2;
+    padding: 20px;
+    
+}
+
+.skills ul {
+    list-style-type:none;
+    line-height:15px;
+	padding:0;
+	align-items:center;
+	margin-bottom:0;
+	margin:0;
+
+    
+}
+
+.skills li {
+    border: 1px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width:5;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 20;
+    margin: 25px;
+    border: 2px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+.skills ul li:hover{
+	color: #fff;
+	background-color: rgb(107, 187, 107);
+	transition:0.5s;
+}
+
+
+/* Contact Section Styles */
+footer {
+    background-color: #4e1f1f;
+    color: white;
+    padding: 10px;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    section, footer {
+        margin: 10px;
+    }
+
+    .skills li {
+        margin-bottom: 5px;
+    }
+}
